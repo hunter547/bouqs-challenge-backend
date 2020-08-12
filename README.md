@@ -1,9 +1,9 @@
-# The Bouqs Challenge Online Database
+# The Bouqs Challenge Online Database 🌸 
 
 ## Sources
-Instructions and initial repo cloned from [json-server-heroku](https://github.com/jesperorb/json-server-heroku)
-Addional instructions for me to make this work: [json-faker-server](https://github.com/atapas/json-faker-server)
-The mock api files using Faker.js came from The Bouqs front end challenge [repository](https://github.com/thebouqs/fe-code-challenge/tree/master/api)
+- Instructions and initial repo cloned from [json-server-heroku](https://github.com/jesperorb/json-server-heroku)
+- Addional instructions for me to make this work: [json-faker-server](https://github.com/atapas/json-faker-server)
+- The mock api files using Faker.js came from The Bouqs front end challenge [repository](https://github.com/thebouqs/fe-code-challenge/tree/master/api)
 
 ## Setup instructions
 1. Clone this repo: `git clone git@github.com:hunter547/bouqs-challenge-backend.git`

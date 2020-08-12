@@ -8,7 +8,7 @@ The mock api files using Faker.js came from The Bouqs front end challenge [repos
 ## Setup instructions
 1. Clone this repo: `git clone git@github.com:hunter547/bouqs-challenge-backend.git`
 2. cd into the project: `cd bouqs-challenge-backend`
-3. Run the generate script: `npm run generate` Note this script runs the db.js file and console.logs its output to a file called db.json
+3. Run the generate script: `npm run generate`
 4. Add your files: `git add .`
 5. Commit your files: `git commit -m "yay I have a database."`
 6. Create an account on [Heroku](https://heroku.com/).
@@ -17,3 +17,6 @@ The mock api files using Faker.js came from The Bouqs front end challenge [repos
 9. Within the bouqs-challenge-backend project folder, create a Heroku project: `heroku create my-cool-app`
 10. Then push your commited changes form step 5 to Heroku: `git push heroku master`
 11. Open your app once it's finished building: `heroku open`
+
+## Function of `npm run generate`
+This script runs the db.js file to generate data using faker.js and outputs the JSON result to a file called db.json. Then when Heroku runs npm start on server.js, server.js uses that file as its source to handle requests and serve data.

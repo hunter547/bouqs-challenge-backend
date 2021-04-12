@@ -6,7 +6,7 @@ let generateProductImages = num => {
   let images = [];
 
   for (let i = 0; i < num; i++) {
-    let url = 'https://lorempixel.com/440/440/nature/',
+    let url = 'https://placeimg.com/440/440/nature',
       option = faker.random.arrayElement(constants.SIZE_OPTIONS);
 
     images.push({
